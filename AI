@@ -1,0 +1,74 @@
+ARTIFICIAL INTELLIGENCE
+* Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with 
+human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.
+* applications of AI include advanced web search engines, chatbots, virtual assistants, autonomous vehicles, and play and analysis in strategy games (e.g., chess and Go).
+* generative AI has become widely available to generate images, audio, and videos from text prompts.
+* AI is used in maps,whether detection, face unlock, recommendations on insta
+* ML is part of AI, Deep Learning(in which we use neural networks to perform tasks) is part of ML, Generative AI is a part of DL
+* AI->ML->DL->Gen AI
+
+
+Key Principles and Technologies
+Machine Learning: This is a subset of AI that involves training algorithms on data to make predictions or decisions without being explicitly programmed. It includes supervised learning, unsupervised learning, and reinforcement learning.
+Deep Learning: A type of machine learning that uses neural networks with many layers (hence "deep") to analyze various factors of data. It is particularly effective in tasks like image and speech recognition.
+Natural Language Processing (NLP): This technology enables machines to understand, interpret, and generate human language. Applications include chatbots, translation services, and voice-activated assistants.
+Expert Systems: simulate human decision-making using predefined rules and domain-specific knowledge.Commonly applied in healthcare, finance, and diagnostics.
+
+MACHINE LEARNING
+* ML is thr process of teaching computers to learn patterns from data and make decisions based on those patterns
+* Training is the process of understanding the data
+* ML algorithms takes both input and output and creates the model based on the logics or characteristics. It is different from normal comp science algo->which takes input ,creates logic and then we analyse the output
+* ML algorithms has 2 types
+  1. creation of logic which is nothing but model
+  2. make predictions
+* Example: Bank loan approve or not-> we will create a model based on cibil score, old employeee or not etc factors and make decisions whether we accept a loan or reject
+
+
+TYPES OF MACHINE LEARNING
+1. Supervised Learning
+2. Unsupervised Learning
+3. reinforcement Learning
+* AI models are systems that learn from data or predefined rules to make predictions and decisions. Different models use different learning approaches depending on the type of training data and feedback available.
+* Labeled data -> labeled is having a label for example to detect whether it is spam or not spam (spam and not spam are labels)
+1. supervised learning: 
+    Supervised learning is a type of machine learning where a model learns from labelled data, meaning each input has a correct output.
+    In supervised learning, AI is trained on labeled data with clear input-output pairs to learn the relationship between them.
+    Reduces prediction errors during training.
+    Used in image classification, spam filtering, and medical diagnosis.
+2.Unsupervised Learning:
+    In unsupervised learning, AI works with unlabeled data to identify hidden patterns, trends, or groupings automatically.
+    Helps discover structures within complex datasets.
+    Used in clustering, customer segmentation, and fraud detection.
+3.Reinforcement Learning:
+    In reinforcement learning, AI learns by interacting with an environment using rewards and penalties as feedback.
+    Optimizes decisions through trial and error.
+    Used in robotics, gaming, and autonomous systems.
+
+*Supervised learning can be used solve 2 types of problems:
+1. classification problems : Where the output is a categorical variable (e.g., spam vs. non-spam emails, yes vs. no).
+    a. Binary - having only 2 categories/classes
+    b. Multi class - having more than 2
+    -> Some of the classification algorithms: 
+        Logistic Regression
+        Random Forests
+        Support Vector Machine(SVM)
+        K-Nearest Neighbors
+2. Regression problems : Where the output is a continuous variable (e.g., predicting house prices, stock prices).
+* In supervised learning, the purpose of splitting the dataset into training(80%) and test(20%) sets is to evaluate the model's performance on unseen data
+* decision tree supervised learning algorithm is particularly known for its ability to handle both classification and regression tasks
+
+
+*Supervised Machine Learning Algorithms:
+  Linear Regression: Used to predict continuous values (e.g., price, temperature). It is simple and widely used.
+  Logistic Regression: Logistic regression is a type of supervised learning classification algorithm that is used to predict a binary output variable.
+  Decision Trees: Uses a tree-like structure where each node represents a decision and each leaf represents an outcome.
+  Random Forests: Combines multiple decision trees to improve accuracy and reduce overfitting.
+  Support Vector Machine(SVM): Separates data into classes using a boundary (hyperplane). Support vectors help define this boundary.
+  K-Nearest Neighbors: Predicts based on the closest data points. Results depend on the value of k and distance measure.
+  Gradient Boosting: Builds models step-by-step by correcting errors of previous models, creating a strong model.
+        Naive Bayes Algorithm: Based on probability and Bayes’ Theorem, assuming features are independent of each other
+
+
+
+    
+                                                                           
