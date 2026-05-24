@@ -44,6 +44,7 @@ TYPES OF MACHINE LEARNING
     Optimizes decisions through trial and error.
     Used in robotics, gaming, and autonomous systems.
 
+SUPERVISED LEARNING
 *Supervised learning can be used solve 2 types of problems:
 1. classification problems : Where the output is a categorical variable (e.g., spam vs. non-spam emails, yes vs. no).
     a. Binary - having only 2 categories/classes
@@ -54,6 +55,11 @@ TYPES OF MACHINE LEARNING
         Support Vector Machine(SVM)
         K-Nearest Neighbors
 2. Regression problems : Where the output is a continuous variable (e.g., predicting house prices, stock prices).
+  -> Some of the classification algorithms: 
+        Linear Regression
+        Lasso Regression
+        Multi variate regression
+
 * In supervised learning, the purpose of splitting the dataset into training(80%) and test(20%) sets is to evaluate the model's performance on unseen data
 * decision tree supervised learning algorithm is particularly known for its ability to handle both classification and regression tasks
 
@@ -66,8 +72,50 @@ TYPES OF MACHINE LEARNING
   Support Vector Machine(SVM): Separates data into classes using a boundary (hyperplane). Support vectors help define this boundary.
   K-Nearest Neighbors: Predicts based on the closest data points. Results depend on the value of k and distance measure.
   Gradient Boosting: Builds models step-by-step by correcting errors of previous models, creating a strong model.
-        Naive Bayes Algorithm: Based on probability and Bayes’ Theorem, assuming features are independent of each other
+  Naive Bayes Algorithm: Based on probability and Bayes’ Theorem, assuming features are independent of each other
 
+
+UNSUPERVISED LEARNING
+*Unsupervised Learning is a type of machine learning where the model works without labelled data. It learns patterns on its own by grouping similar data points or finding hidden structures without any human intervention.
+    It is used for tasks like clustering, dimensionality reduction and Association Rule Learning.
+    Helps identify hidden patterns in data
+    Useful for grouping, compression and anomaly detection
+*There are mainly 3 types of Unsupervised Algorithms that are used:
+  1.clustering ALgorithms
+  2. Asscoiation Rule Learning Algorithms
+  3. Dimensionality Reduction
+* outliers are the points that doesnot belongs to any of the category
+
+1. Clustering Algorithms
+*Clustering is an unsupervised machine learning technique that groups unlabeled data into clusters based on similarity.Groups data points that share similar features or characteristics.
+*Some common clustering algorithms: 
+    K-means Clustering: Groups data into K clusters based on how close the points are to each other.
+    Hierarchical Clustering: Creates clusters by building a tree step-by-step, either merging or splitting groups.
+    Density-Based Clustering (DBSCAN): Finds clusters in dense areas and treats scattered points as noise.
+    Mean-Shift Clustering: Discovers clusters by moving points toward the most crowded areas.
+    Spectral Clustering: Groups data by analyzing connections between points using graphs.
+
+2.Association Rule Learning Algorithm:
+*Association rule learning is a rule-based unsupervised learning technique used to discover interesting relationships between variables in large datasets.
+*Commonly used in market basket analysis to understand product purchase relationships.Used in amazon and blinkit to recommend the associate products that are bought together
+*Association Rule Learning is mainly used to discover “if-then” relationships between items
+*Some common Association Rule Learning algorithms: 
+    Apriori Algorithm: Finds patterns by exploring frequent item combinations step-by-step.
+    FP-Growth Algorithm: An Efficient Alternative to Apriori. It quickly identifies frequent patterns without generating candidate sets.
+
+3. Dimentionality Reduction:
+*Dimensionality reduction is the process of decreasing the number of features or variables in a dataset while retaining as much of the original information as possible.
+*This technique helps simplify complex data making it easier to analyze and visualize. It also improves the efficiency and performance of machine learning algorithms by reducing noise and computational cost.
+*Here are some popular Dimensionality Reduction algorithms:
+    Principal Component Analysis (PCA): Reduces dimensions by transforming data into uncorrelated principal components.
+    Non-negative Matrix Factorization (NMF): Breaks data into non-negative parts to simplify representation.
+
+
+REINFORCEMNENT LEARNING MODELS
+*In reinforcement learning, AI learns by interacting with an environment using rewards and penalties as feedback.
+*Optimizes decisions through trial and error.
+*Used in robotics, gaming, and autonomous systems.
+*Applications are : robotics,games etc
 
 
     
